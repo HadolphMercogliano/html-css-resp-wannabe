@@ -7,10 +7,21 @@
 @media screen and (max-width: 480px) {
     .row {
         flex-direction: column;
+        gap: 5rem;
     }
 
     .row .col {
         width: 100%;
+    }
+
+    .why-us {
+        padding-top: 3rem;
+        background-color: #222222;
+        margin-bottom: 0;
+    }
+
+    .steps {
+        margin-bottom: 0;
     }
 }
 
